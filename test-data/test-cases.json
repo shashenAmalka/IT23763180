@@ -1,0 +1,439 @@
+{
+  "positiveTests": [
+    {
+      "id": "Pos_Fun_0001",
+      "name": "Greeting",
+      "lengthType": "S",
+      "input": "aayuboovan!",
+      "expectedOutput": "ආයුබෝවන්!",
+      "category": {
+        "inputType": "Greeting / request / response",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0002",
+      "name": "Polite request",
+      "lengthType": "S",
+      "input": "karuNaakaralaa eka balanna.",
+      "expectedOutput": "කරුණාකරලා එක බලන්න.",
+      "category": {
+        "inputType": "Greeting / request / response",
+        "sentenceFocus": "Imperative (command)",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0003",
+      "name": "Simple statement",
+      "lengthType": "S",
+      "input": "mama vaeda karanavaa.",
+      "expectedOutput": "මම වැඩ කරනවා.",
+      "category": {
+        "inputType": "Daily language usage",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0004",
+      "name": "Question form",
+      "lengthType": "S",
+      "input": "oyaa monavadha karanne?",
+      "expectedOutput": "ඔයා මොනවද කරනේ?",
+      "category": {
+        "inputType": "Daily language usage",
+        "sentenceFocus": "Interrogative (question)",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0005",
+      "name": "Imperative",
+      "lengthType": "S",
+      "input": "issarahata yanna.",
+      "expectedOutput": "ඉස්සරහට යන්න.",
+      "category": {
+        "inputType": "Daily language usage",
+        "sentenceFocus": "Imperative (command)",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0006",
+      "name": "Future tense",
+      "lengthType": "S",
+      "input": "api iiLaGa sathiyee enavaa.",
+      "expectedOutput": "අපි ඉලඟ සතියේ එනවා.",
+      "category": {
+        "inputType": "Daily language usage",
+        "sentenceFocus": "Future tense",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0007",
+      "name": "Negative sentence",
+      "lengthType": "S",
+      "input": "mata eeka epaa.",
+      "expectedOutput": "මට ඒක එපා.",
+      "category": {
+        "inputType": "Daily language usage",
+        "sentenceFocus": "Negation (negative form)",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0008",
+      "name": "Daily usage",
+      "lengthType": "S",
+      "input": "mata baya naehae.",
+      "expectedOutput": "මට බය නැහැ.",
+      "category": {
+        "inputType": "Daily language usage",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0009",
+      "name": "Mixed English",
+      "lengthType": "M",
+      "input": "Zoom class ekata join venna.",
+      "expectedOutput": "Zoom class එකට join වෙන්න.",
+      "category": {
+        "inputType": "Mixed Singlish + English",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0010",
+      "name": "Email request",
+      "lengthType": "M",
+      "input": "documents tika email karanna.",
+      "expectedOutput": "documents ටික email කරන්න.",
+      "category": {
+        "inputType": "Mixed Singlish + English",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0011",
+      "name": "Plural usage",
+      "lengthType": "S",
+      "input": "oyaalaa enavaa.",
+      "expectedOutput": "ඔයාලා එනවා.",
+      "category": {
+        "inputType": "Daily language usage",
+        "sentenceFocus": "Plural form",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0012",
+      "name": "Past tense",
+      "lengthType": "S",
+      "input": "api gedhara giyaa.",
+      "expectedOutput": "අපි ගෙදර ගියා.",
+      "category": {
+        "inputType": "Daily language usage",
+        "sentenceFocus": "Past tense",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0013",
+      "name": "Time format",
+      "lengthType": "S",
+      "input": "12.00 noon wenakam innam.",
+      "expectedOutput": "12.00 noon වෙනකම් ඉන්නම්.",
+      "category": {
+        "inputType": "Punctuation / numbers",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0014",
+      "name": "Currency",
+      "lengthType": "S",
+      "input": "USD 1500 gewanna ona.",
+      "expectedOutput": "USD 1500 ගෙවන්න ඕන.",
+      "category": {
+        "inputType": "Punctuation / numbers",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0015",
+      "name": "Date format",
+      "lengthType": "S",
+      "input": "2026-05-21 meet eka.",
+      "expectedOutput": "2026-05-21 meet එක.",
+      "category": {
+        "inputType": "Punctuation / numbers",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0016",
+      "name": "Units",
+      "lengthType": "S",
+      "input": "kg 2k ganna.",
+      "expectedOutput": "kg 2ක් ගන්න.",
+      "category": {
+        "inputType": "Punctuation / numbers",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0017",
+      "name": "Repeated words",
+      "lengthType": "S",
+      "input": "eka eka kiyanna.",
+      "expectedOutput": "එක එක කියන්න.",
+      "category": {
+        "inputType": "Word combination / phrase pattern",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0018",
+      "name": "Compound sentence",
+      "lengthType": "M",
+      "input": "mama enne naee namuth oyaa yanna.",
+      "expectedOutput": "මම එන්නේ නැහැ නමුත් ඔයා යන්න.",
+      "category": {
+        "inputType": "Daily language usage",
+        "sentenceFocus": "Compound sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0019",
+      "name": "Complex sentence",
+      "lengthType": "M",
+      "input": "vaessa unoth api yanna epaeyi.",
+      "expectedOutput": "වැස්ස උනොත් අපි යන්න එපායි.",
+      "category": {
+        "inputType": "Daily language usage",
+        "sentenceFocus": "Complex sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0020",
+      "name": "Place names",
+      "lengthType": "S",
+      "input": "api Kandy yamu.",
+      "expectedOutput": "අපි Kandy යමු.",
+      "category": {
+        "inputType": "Names / places / common English words",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0021",
+      "name": "Abbreviation",
+      "lengthType": "S",
+      "input": "OTP eka evanna.",
+      "expectedOutput": "OTP එක එවන්න.",
+      "category": {
+        "inputType": "English abbreviations and short forms",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0022",
+      "name": "Formatting",
+      "lengthType": "M",
+      "input": "mama gedhara yanavaa.\r\noyaa enne.",
+      "expectedOutput": "මම ගෙදර යනවා.\r\nඔයා එන්නේ.",
+      "category": {
+        "inputType": "Formatting (spaces / line breaks / paragraph)",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0023",
+      "name": "Slang",
+      "lengthType": "S",
+      "input": "siraavata lassanai.",
+      "expectedOutput": "සිරාවට ලස්සනයි.",
+      "category": {
+        "inputType": "Slang / informal language",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    },
+    {
+      "id": "Pos_Fun_0024",
+      "name": "Request informal",
+      "lengthType": "S",
+      "input": "anee eka dhenna.",
+      "expectedOutput": "අනේ එක දෙන්න.",
+      "category": {
+        "inputType": "Greeting / request / response",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Accuracy validation"
+      }
+    }
+  ],
+  "negativeTests": [
+    {
+      "id": "Neg_Fun_0001",
+      "name": "Random symbols",
+      "lengthType": "S",
+      "input": "@@@###",
+      "expectedOutput": "System should handle input gracefully",
+      "category": {
+        "inputType": "Typographical error handling",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Robustness validation"
+      },
+      "expectedIssue": "System should handle input gracefully"
+    },
+    {
+      "id": "Neg_Fun_0002",
+      "name": "Numbers only",
+      "lengthType": "S",
+      "input": "999999",
+      "expectedOutput": "System should handle input gracefully",
+      "category": {
+        "inputType": "Typographical error handling",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Robustness validation"
+      },
+      "expectedIssue": "System should handle input gracefully"
+    },
+    {
+      "id": "Neg_Fun_0003",
+      "name": "No vowels",
+      "lengthType": "S",
+      "input": "mmdhre",
+      "expectedOutput": "System should handle input gracefully",
+      "category": {
+        "inputType": "Typographical error handling",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Robustness validation"
+      },
+      "expectedIssue": "System should handle input gracefully"
+    },
+    {
+      "id": "Neg_Fun_0004",
+      "name": "Excess spaces",
+      "lengthType": "S",
+      "input": "maema     paasssale",
+      "expectedOutput": "මම පාසලේ",
+      "category": {
+        "inputType": "Typographical error handling",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Robustness validation"
+      },
+      "expectedIssue": "මම පාසලේ"
+    },
+    {
+      "id": "Neg_Fun_0005",
+      "name": "Mixed symbols",
+      "lengthType": "S",
+      "input": "marrma$$gerrdhara",
+      "expectedOutput": "මම ගෙදර",
+      "category": {
+        "inputType": "Typographical error handling",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Robustness validation"
+      },
+      "expectedIssue": "මම ගෙදර"
+    },
+    {
+      "id": "Neg_Fun_0006",
+      "name": "Only spaces",
+      "lengthType": "S",
+      "input": " ",
+      "expectedOutput": "System should handle input gracefully",
+      "category": {
+        "inputType": "Empty/cleared input handling",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Robustness validation"
+      },
+      "expectedIssue": "System should handle input gracefully"
+    },
+    {
+      "id": "Neg_Fun_0007",
+      "name": "Repeated punctuation",
+      "lengthType": "S",
+      "input": "!!!???",
+      "expectedOutput": "System should handle input gracefully",
+      "category": {
+        "inputType": "Typographical error handling",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Robustness validation"
+      },
+      "expectedIssue": "System should handle input gracefully"
+    },
+    {
+      "id": "Neg_Fun_0008",
+      "name": "Broken word",
+      "lengthType": "S",
+      "input": "gwe-dhra-ra",
+      "expectedOutput": "ගෙදර",
+      "category": {
+        "inputType": "Typographical error handling",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Robustness validation"
+      },
+      "expectedIssue": "ගෙදර"
+    },
+    {
+      "id": "Neg_Fun_0009",
+      "name": "New lines only",
+      "lengthType": "S",
+      "input": " ",
+      "expectedOutput": "System should handle input gracefully",
+      "category": {
+        "inputType": "Empty/cleared input handling",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Robustness validation"
+      },
+      "expectedIssue": "System should handle input gracefully"
+    },
+    {
+      "id": "Neg_Fun_0010",
+      "name": "Unsupported chars",
+      "lengthType": "S",
+      "input": "###thattta###",
+      "expectedOutput": "තාත්තා",
+      "category": {
+        "inputType": "Typographical error handling",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Robustness validation"
+      },
+      "expectedIssue": "තාත්තා"
+    }
+  ],
+  "uiTests": [
+    {
+      "id": "Pos_UI_0001",
+      "name": "Clear input behavior",
+      "lengthType": "S",
+      "input": "mama kanavaa\r\n\r\n",
+      "expectedOutput": "මම කනවා",
+      "category": {
+        "inputType": "Empty/cleared input handling",
+        "sentenceFocus": "Simple sentence",
+        "qualityFocus": "Real-time output update behavior"
+      },
+      "description": "Clear input behavior"
+    }
+  ]
+}

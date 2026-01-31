@@ -1,0 +1,25 @@
+{
+  "name": "it23763180",
+  "version": "1.0.0",
+  "description": "singlish translator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:positive": "npx playwright test tests/positive-functional.spec.js",
+    "test:negative": "npx playwright test tests/negative-functional.spec.js",
+    "test:ui-tests": "npx playwright test tests/ui.spec.js",
+    "test:excel": "npx playwright test tests/excel-functional.spec.js",
+    "report": "npx playwright show-report"
+  },
+  "author": "it23763180",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.1.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
